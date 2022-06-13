@@ -1,0 +1,132 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+     font-size: 16px;
+     line-height: 20px; 
+}
+
+header{
+    background-color: rgba(8, 8, 8, 0.991);
+    padding: 1em 0;
+}
+
+header h1{
+    color: rgb(118, 247, 247);
+    font-size: 6em;
+    font-style: italic;
+    font-weight: 200;
+    display: inline-block;
+    position: relative;
+    border-bottom: 70px;
+}
+
+nav{
+    background-color: slategrey;
+    margin-bottom: 1em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 24.5%;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: solid;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    background-color: slategrey;
+}
+
+nav ul li a:hover{
+    background-color: rgba(128, 128, 128, 0.37);
+}
+  
+footer{
+    background-color: rgb(31, 6, 54);
+    clear: both;
+    color: azure;
+    padding: 3em 0;
+    margin: 2em;
+    text-align: center;
+}
+
+nav ul li a.activo{
+    background-color: black;
+}
+
+.holder {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: rebeccapurple;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 1em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Blaka',cursive
+}
+
+.left{
+    float: left;
+  
+}
+.right{
+    float: right;
+    
+}
+
+.columnas{
+    overflow: hidden;
+}
+
+.resumen .img{
+    box-sizing: border-box;
+}
+
+.resumen{
+    width: 40%;
+  
+}
+
+.img{
+    width: 60%;
+}
+
+
+/*INICIO PERSONAJES*/
+
+.principales{
+    overflow: scroll;
+}
+
+.principales .info{
+    width: 60%;
+    float: right;
+    font-weight: normal;
+}
+
+.principales{
+    box-sizing: border-box;
+}
+
+.principales img{
+max-width: 25%;
+border-radius: 10%;
+float: left;
+}
+
+.info h3{
+    color: purple;
+ text-decoration: underline double;
+}
+
+/*FIN PERSONAJES*/
